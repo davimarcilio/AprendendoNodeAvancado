@@ -14,7 +14,6 @@ app.use(bodyParser.json());
 
 // ROUTES
 PORT = 8080;
-// const pathURL = path.join(__dirname, 'public');
 app.use((req, res) => {
     switch (req._parsedUrl.pathname) {
         case '/':
